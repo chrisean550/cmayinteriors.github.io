@@ -1,0 +1,157 @@
+@media only screen and (max-width: 768px) {
+    h1, h2{
+        font-size: 1.75rem;
+    }
+
+    .projects{
+        padding: 3rem 0;
+    }
+
+    .projects-image{
+        margin: .5rem 0;
+    }
+    
+    .contact-section{
+        align-items: center;
+        background-image: 
+        linear-gradient(to top, #ffffff 70%,#ffffff00 85%),
+        url("imgs/contact-image.jpg");
+        background-position: top, top;
+        padding: 11rem 0 0 0;
+    }
+
+    .content-section-wrapper{
+        padding: 5vh 0;
+    }
+
+    .services-section{
+        padding: 3rem .5rem;
+    }
+    
+    .button-style-5{
+        display: block;
+        position: relative;
+        margin-right: auto;
+        margin-left: auto;        
+    }
+    
+    .facebook{
+        cursor: pointer;
+        transition: all .3s ease-in-out;
+        padding: 2rem 4rem 2rem 4rem;
+    }
+
+    .featured-section h2{
+        width: 90%; 
+        border-bottom: none; 
+        line-height: 2rem;
+        margin: 2rem 0 1rem;       
+    } 
+    
+    .featured-section h2 span { 
+        font-size: 2rem;
+        color:#8E793E;
+        background:#ffffff00; 
+        padding:0 0; 
+    }
+    
+    .featured-images{
+        width: 100vw;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-evenly;
+        margin-bottom: 3rem;
+    }
+    
+    .featured-image{
+        max-width: 90vw;
+        border-radius: .5rem;
+        margin: 1rem 0;
+    }
+
+    .studio-section{
+        padding-top: 20rem;
+        justify-content: center;
+        background-image: 
+        linear-gradient(to top, #231F20 63%,#231F2000 75%),
+        url("imgs/studio.jpg");
+        background-position: top, top;
+    }
+    
+    .studio-content{
+        margin-left: 0rem;
+        width: 90vw;
+        padding-bottom: 2rem;
+    }
+      
+    .about-section{
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    
+    .headshot{
+        margin: 2rem 0;
+    }
+    
+    .about-content{
+        width: 90vw;
+        padding-bottom: 2rem;
+    }
+
+    .landing{
+        padding: 8rem .5rem 0 .5rem;
+        height: 100vh;
+    }
+    
+    .button-style-1, .button-style-2{
+        margin: 1rem 0 1rem 0;
+    }
+
+    .navbar{
+        height: 2rem;
+        z-index: 1000;
+    }
+
+    .nav-menu {
+        z-index: 1000000;
+        position: absolute;
+        left: -100%;
+        top: 2rem;
+        flex-direction: column;
+        background-color: #fff;
+        width: 100%;
+        border-radius: 0 0 10px 10px;
+        text-align: center;
+        transition: 0.3s;
+        box-shadow: 0 10px 27px rgba(0, 0, 0, 0.05);
+    }
+
+    .nav-menu.active {
+        left: 0;
+        background-color: #FFFFFF;
+        opacity: .9;
+    }
+
+    .nav-item {
+        margin: 1rem 0;
+    }
+
+    .hamburger {
+        display: block;
+        cursor: pointer;
+    }
+
+    .hamburger.active .bar:nth-child(2) {
+        opacity: 0;
+    }
+
+    .hamburger.active .bar:nth-child(1) {
+        transform: translateY(8px) rotate(45deg);
+    }
+
+    .hamburger.active .bar:nth-child(3) {
+        transform: translateY(-8px) rotate(-45deg);
+    }
+}
