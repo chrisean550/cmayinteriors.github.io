@@ -10,11 +10,12 @@
 </head>
 <body>
 	<?php include 'navbar.php'?>
-    <div class="landing">
+    <div id="landing" class="landing">
         <h1>Artfully blending <br> interior design and style</h1>
         <div class="landing-buttons">
-            <button type="button" class="button-style-1">Learn More</button>
-            <button type="button" class="button-style-2">Lets Work</button>
+            <button id="scroll-button" type="button" class="button-style-1">Learn More</button>
+            <button type="button" class="button-style-2"
+            onclick="window.location.href='contact.php'">Lets Work</button>
         </div>
     </div>
 
@@ -43,7 +44,8 @@
             <br>
             <p>Note: Hours are by appointment or open house from 10-2pm the 2nd and 4th Saturday every month.</p>
             <br>
-            <button type="button" class="button-style-3">Lets Work</button>
+            <button type="button" class="button-style-3"
+            onclick="window.location.href='contact.php'">Lets Work</button>
         </div>
     </div>
 
@@ -54,11 +56,13 @@
             <img class="featured-image" src="imgs/feature2.png" alt="">
             <img class="featured-image" src="imgs/feature3.jpg" alt="">
         </div>
-        <button type="button" class="button-style-4">See More</button>
+        <button type="button" class="button-style-4"
+        onclick="window.location.href='projects.php'">See More</button>
     </div>
     <?php include 'footer.php'?>
 
     <script type='text/javascript' src='utils/nav.js'></script>
+    <script type='text/javascript' src='utils/scroll.js'></script>
     <script src="https://use.fontawesome.com/1ffea26fd3.js"></script>
 </body>
 </html>

@@ -13,8 +13,11 @@
             <p>Phone: (724) 941-1391</p>
             <p>Email: cmayinteriors@verizon.net</p>
         </div>
-        <i class="fa fa-2x fa-facebook-square facebook" aria-hidden="true"></i>
-        <button type="button" class="button-style-3">Lets Work</button>
+        <a href="https://www.facebook.com/cmayinteriors/">
+            <i class="fa fa-2x fa-facebook-square facebook" aria-hidden="true"></i>
+        </a>
+        <button type="button" class="button-style-3"
+        onclick="window.location.href='contact.php'">Lets Work</button>
     </div>
     <p class="footer-subtext">
         Copyright © 2021 C. May Interiors - All Rights Reserved No content or images

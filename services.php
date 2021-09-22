@@ -28,7 +28,8 @@
             <br>
             <p class="services-subtext">* Additional travel charges for distances over 30 miles.</p>
             <br>
-            <button type="button" class="button-style-5">Lets Work</button>
+            <button type="button" class="button-style-5"
+            onclick="window.location.href='contact.php'">Lets Work</button>
         </div> 
     </div>
     <?php include 'footer.php'?>

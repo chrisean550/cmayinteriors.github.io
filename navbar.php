@@ -1,5 +1,5 @@
 <header class="header">
-<nav class="navbar">
+<nav id="nav" class="navbar">
     <a href="index.php"><img src="imgs/logo.png" class="nav-logo" alt="Site identity"></a>
     <ul class="nav-menu">
         <li class="nav-item">

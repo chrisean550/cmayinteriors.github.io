@@ -15,10 +15,10 @@
         <div>
             <h2>Get In Touch</h2>
             <form action='' method='POST' enctype='multipart/form-data'>
-                <input type="text" name="full-name" value="Full Name"></input>
-                <input type="text" name="email" value="Email"></input>
-                <input type="text" name="phone" value="Phone #"></input>
-                <textarea maxlength="1500" name='description'>How can we help you?</textarea>
+                <input type="text" required name="full-name" placeholder="Full Name"></input>
+                <input type="email" required name="email" placeholder="Email"></input>
+                <input type="text" required name="phone" placeholder="Phone #"></input>
+                <textarea maxlength="1500" name='description' placeholder="How can we help you?"></textarea>
                 <input type='submit' name='send' value='Submit'/>
             </form>
         </div> 
