@@ -1,45 +1,37 @@
 <?php
-//Import PHPMailer classes into the global namespace
-//These must be at the top of your script, not inside a function
-use PHPMailer\src\PHPMailer;
-use PHPMailer\src\SMTP;
-use PHPMailer\src\Exception;
+use PHPMailer\PHPMailer\PHPMailer;
 
-//Create an instance; passing `true` enables exceptions
+require_once 'phpmailer/Exception.php';
+require_once 'phpmailer/PHPMailer.php';
+require_once 'phpmailer/SMTP.php';
+
 $mail = new PHPMailer(true);
+$alert = '';
+if(isset($_POST['submit'])){
+  $name = $_POST['full-name'];
+  $email = $_POST['email'];
+  $phone = $_POST['phone'];
+  $message = $_POST['message'];
+  try{
+    $mail->isSMTP();
+    $mail->Host = 'smtp.gmail.com';
+    $mail->SMTPAuth = true;
+    $mail->Username = 'WebsiteEmailBot@gmail.com'; // Gmail address which you want to use as SMTP server
+    $mail->Password = 'TGmvUBNgyVx_7Q2'; // Gmail address Password
+    $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
+    $mail->Port = '587';
 
-try {
-    //Server settings
-    $mail->SMTPDebug = SMTP::DEBUG_SERVER;                      //Enable verbose debug output
-    $mail->isSMTP();                                            //Send using SMTP
-    $mail->Host       = 'smtp.gmail.com';                       //Set the SMTP server to send through
-    $mail->SMTPAuth   = true;                                   //Enable SMTP authentication
-    $mail->Username   = 'chriseannichols550@gmail.com';                     //SMTP username
-    $mail->Password   = '550748Cn.';                               //SMTP password
-    $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;            //Enable implicit TLS encryption
-    $mail->Port       = 465;                                    //TCP port to connect to; use 587 if you have set `SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS`
+    $mail->setFrom('WebsiteEmailBot@gmail.com'); // Gmail address which you used as SMTP server
+    $mail->addAddress('chriseannichols550@gmail.com'); // Email address where you want to receive emails (you can use any of your gmail address including the gmail address which you used as SMTP server)
 
-    //Recipients
-    $mail->setFrom('chriseannichols550@gmail.com', 'Mailer');
-    $mail->addAddress('chriseannichols550@gmail.com', 'Joe User');     //Add a recipient
-    // $mail->addAddress('ellen@example.com');               //Name is optional
-    // $mail->addReplyTo('info@example.com', 'Information');
-    // $mail->addCC('cc@example.com');
-    // $mail->addBCC('bcc@example.com');
-
-    // Not needed
-    //Attachments
-    // $mail->addAttachment('/var/tmp/file.tar.gz');         //Add attachments
-    // $mail->addAttachment('/tmp/image.jpg', 'new.jpg');    //Optional name
-
-    //Content
-    $mail->isHTML(true);                                  //Set email format to HTML
-    $mail->Subject = 'Here is the subject';
-    $mail->Body    = 'This is the HTML message body <b>in bold!</b>';
-    $mail->AltBody = 'This is the body in plain text for non-HTML mail clients';
+    $mail->isHTML(true);
+    $mail->Subject = 'Message Received - C. May Interiors Contact';
+    $mail->Body = "<h3>From : $name <br>Email: $email <br>Phone: $phone <br>Message : $message</h3>";
 
     $mail->send();
-    echo '<script>alert("Message has been sent")</script>';
-} catch (Exception $e) {
-    echo "<script>alert('Message could not be sent. Mailer Error: {$mail->ErrorInfo}')</script>";
+    $alert = '<script type="text/javascript">alert("Message Sent! We will be in touch soon.")</script>';
+  } catch (Exception $e){
+    $alert = '<script type="text/javascript">'.$e->getMessage().'</script>';
+  }
 }
+?>
