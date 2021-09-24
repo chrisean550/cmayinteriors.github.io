@@ -6,7 +6,7 @@
             <a href="index.php" class="nav-link">Home</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link" href="index.php #about">About</a>
+            <a class="nav-link" href="index.php?scroll=about">About</a>
         </li>
         <li class="nav-item">
             <a href="projects.php" class="nav-link">Projects</a>

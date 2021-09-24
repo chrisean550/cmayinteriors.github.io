@@ -4,18 +4,18 @@
 <html lang="en" >
 <head>
 	<meta charset="utf-8">
-    <meta name="description" content="">
+    <meta name="description" content="Contact us with your interior design needs so we can breath new life to your home setup! We provide consultations to implement a design that is uniquely yours.">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="index.css">
     <link rel="stylesheet" href="mobile.css">
-	<title>C. May Interiors - Contact</title>
+	<title>Contact | Schedule Your Consultation | Lets Work Together!</title>
 </head>
 <body>
     <?php echo $alert; ?>
 	<?php include 'navbar.php'?>
     <div class="content-section-wrapper">
     <div class="contact-section">
-        <div>
+        <div class="contact-form-container">
             <h2>Get In Touch</h2>
             <form action='' method='POST' enctype='multipart/form-data'>
                 <input type="text" required name="full-name" placeholder="Full Name"></input>

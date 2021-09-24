@@ -2,11 +2,11 @@
 <html lang="en" >
 <head>
 	<meta charset="utf-8">
-    <meta name="description" content="">
+    <meta name="description" content="We will implement a flexible design to cater to your individual style and budget. Every project is a result of collaboration, quality design, and skilled workmanship.">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="index.css">
     <link rel="stylesheet" href="mobile.css">
-	<title>C. May Interiors - Home</title>
+	<title>C. May Interiors | Interior Design | Canonsburg & Peters Township</title>
 </head>
 <body>
 	<?php include 'navbar.php'?>
@@ -28,7 +28,7 @@
             <br>
             <p>We are dedicated to creating the best version of your home by providing assistance with paint selection, window treatments, accessory and furniture selection and placement, space planning, and much more!</p>
             <br>
-            <p>By consulting with you we will implement a flexible design to cater to your individual style and budget. We believe that every project in a result of collaboration, quality design, and skilled workmanship.</p>
+            <p>By consulting with you we will implement a flexible design to cater to your individual style and budget. We believe that every project is a result of collaboration, quality design, and skilled workmanship.</p>
             <br>
             <p>Let us take your home from ordinary to extraordinary!</p>
         </div>
@@ -64,5 +64,12 @@
     <script type='text/javascript' src='utils/nav.js'></script>
     <script type='text/javascript' src='utils/scroll.js'></script>
     <script src="https://use.fontawesome.com/1ffea26fd3.js"></script>
+    <?php
+        if(isset($_GET['scroll']))
+        {
+            if($_GET['scroll'] == 'about')
+                echo "<script type='text/javascript'>scroll()</script>";
+        }
+    ?>
 </body>
 </html>

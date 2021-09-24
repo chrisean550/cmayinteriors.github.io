@@ -20,6 +20,11 @@
         padding: 11rem 0 0 0;
     }
 
+    .contact-form-container{
+        padding: 0;
+        box-shadow: none;
+    }
+
     .content-section-wrapper{
         padding: 5vh 0;
     }

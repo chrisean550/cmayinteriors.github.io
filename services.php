@@ -2,11 +2,11 @@
 <html lang="en" >
 <head>
 	<meta charset="utf-8">
-    <meta name="description" content="">
+    <meta name="description" content="Creating the best version of your home by assisting with color selection, window treatments, accessory placement, space planning, and much more!">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="index.css">
     <link rel="stylesheet" href="mobile.css">
-	<title>C. May Interiors - Services</title>
+	<title>Services | Affordably Update Your Home | Canonsburg & Peters Township</title>
 </head>
 <body>
 	<?php include 'navbar.php'?>
