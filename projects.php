@@ -36,11 +36,9 @@
             <img class="projects-image" src="imgs/websitepics/Kitchen-5.png" alt="project highlight">
             <img class="projects-image" src="imgs/websitepics/Kitchen-6.png" alt="project highlight">
             <img class="projects-image" src="imgs/websitepics/Livingroom-1.jpg" alt="project highlight">
-            <img class="projects-image" src="imgs/websitepics/Livingroom-2.jpg" alt="project highlight">
             <img class="projects-image" src="imgs/websitepics/Livingroom-3.jpg" alt="project highlight">
         </div>
         <div class="projects-column">         
-            <img class="projects-image" src="imgs/websitepics/Livingroom-4.jpg" alt="project highlight">
             <img class="projects-image" src="imgs/websitepics/Livingroom-5.png" alt="project highlight">
             <img class="projects-image" src="imgs/websitepics/Livingroom-6.png" alt="project highlight">
             <img class="projects-image" src="imgs/websitepics/Livingroom-8.png" alt="project highlight">
@@ -52,6 +50,7 @@
             <img class="projects-image" src="imgs/websitepics/Office-1.jpg" alt="project highlight">
             <img class="projects-image" src="imgs/websitepics/Office-2.jpg" alt="project highlight">
             <img class="projects-image" src="imgs/websitepics/Dining-Room-3.jpg" alt="project highlight">
+            <img class="projects-image" src="imgs/websitepics/Livingroom-2.jpg" alt="project highlight">
         </div>
     </div>
     <?php include 'footer.php'?>
