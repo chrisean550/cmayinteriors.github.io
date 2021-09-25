@@ -7,7 +7,7 @@ function scroll()
     var height = landingHeight - navHeight
     var i = 0
 
-    while(i*15 < height)
+    while(i*1 < height)
     {
         i++
         moveBy(i, height)
@@ -17,5 +17,5 @@ function scroll()
 
 function moveBy(y)
 {
-    setTimeout(() => window.scrollTo(0,y*15), 10 * y);
+    setTimeout(() => window.scrollTo(0,y*1), .75 * y);
 }

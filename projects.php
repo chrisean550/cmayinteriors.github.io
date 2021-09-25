@@ -10,8 +10,9 @@
 </head>
 <body>
 	<?php include 'navbar.php'?>
+    <div id="overlay"></div>
     <div class="projects">
-        <div id="column1" class="projects-column">
+        <div class="projects-column">
             <img class="projects-image" src="imgs/websitepics/Bathroom-1.png" alt="project highlight">
             <img class="projects-image" src="imgs/websitepics/Bathroom-2.png" alt="project highlight">
             <img class="projects-image" src="imgs/websitepics/Bathroom-3.png" alt="project highlight">
@@ -24,7 +25,7 @@
             <img class="projects-image" src="imgs/websitepics/Dining-Room-1.png" alt="project highlight">
             <img class="projects-image" src="imgs/websitepics/Dining-Room-2.png" alt="project highlight">
         </div>
-        <div id="column2" class="projects-column">
+        <div class="projects-column">
             <img class="projects-image" src="imgs/websitepics/Dining-Room-4.jpg" alt="project highlight">
             <img class="projects-image" src="imgs/websitepics/Dining-Room-5.png" alt="project highlight">
             <img class="projects-image" src="imgs/websitepics/Dining-Room-7.jpg" alt="project highlight">
@@ -38,7 +39,7 @@
             <img class="projects-image" src="imgs/websitepics/Livingroom-2.jpg" alt="project highlight">
             <img class="projects-image" src="imgs/websitepics/Livingroom-3.jpg" alt="project highlight">
         </div>
-        <div id="column2" class="projects-column">         
+        <div class="projects-column">         
             <img class="projects-image" src="imgs/websitepics/Livingroom-4.jpg" alt="project highlight">
             <img class="projects-image" src="imgs/websitepics/Livingroom-5.png" alt="project highlight">
             <img class="projects-image" src="imgs/websitepics/Livingroom-6.png" alt="project highlight">
@@ -55,6 +56,7 @@
     </div>
     <?php include 'footer.php'?>
     <script type='text/javascript' src='utils/nav.js'></script>
+    <script type='text/javascript' src='utils/expand-image.js'></script>
     <script src="https://use.fontawesome.com/1ffea26fd3.js"></script>
 </body>
 </html>
