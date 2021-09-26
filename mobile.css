@@ -44,6 +44,7 @@
         cursor: pointer;
         transition: all .3s ease-in-out;
         padding: 2rem 4rem 2rem 4rem;
+        margin: 0;
     }
 
     .featured-section h2{

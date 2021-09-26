@@ -11,7 +11,7 @@
 <body>
 	<?php include 'navbar.php'?>
     <div id="landing" class="landing">
-        <h1>Artfully blending <br> interior design and style</h1>
+        <h1>Artfully blending <br> interior design & style</h1>
         <div class="landing-buttons">
             <button id="scroll-button" type="button" class="button-style-1">Learn More</button>
             <button type="button" class="button-style-2"
@@ -50,7 +50,7 @@
     </div>
 
     <div class="featured-section">
-        <h2><span>Featured Work</span></h2>
+        <h2><span>Featured Work</h2></span>
         <div class="featured-images">
             <img class="featured-image" src="imgs/feature1.jpg" alt="">
             <img class="featured-image" src="imgs/feature2.png" alt="">

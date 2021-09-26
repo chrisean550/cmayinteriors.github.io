@@ -22,11 +22,11 @@ if(isset($_POST['submit'])){
     $mail->Port = '587';
 
     $mail->setFrom('WebsiteEmailBot@gmail.com'); // Gmail address which you used as SMTP server
-    $mail->addAddress('chriseannichols550@gmail.com'); // Email address where you want to receive emails (you can use any of your gmail address including the gmail address which you used as SMTP server)
+    $mail->addAddress('cmayinteriors@verizon.net'); // Email address where you want to receive emails (you can use any of your gmail address including the gmail address which you used as SMTP server)
 
     $mail->isHTML(true);
     $mail->Subject = 'Message Received - C. May Interiors Contact';
-    $mail->Body = "<h3>From : $name <br>Email: $email <br>Phone: $phone <br>Message : $message</h3>";
+    $mail->Body = "<h3>New Form Submit From C. May Interiors Contact Page</h3> <br> <p>From : $name <br>Email: $email <br>Phone: $phone <br>Message : $message</p>";
 
     $mail->send();
     $alert = '<script type="text/javascript">alert("Message Sent! We will be in touch soon.")</script>';
