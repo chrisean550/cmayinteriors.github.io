@@ -112,22 +112,22 @@ textarea{
 }
 
 .projects{
-    position: relative;
-    justify-content: center;
-    padding: 6rem 0;
+    padding: 6rem 5vw;
     display: flex;
     flex-flow: row wrap;
 }
 
 .projects-column{
-     width: 25rem;
-     margin: 0 1rem;
+    flex: 40vw;
+    width: 40vw;
+    margin: 0 1rem;
 }
 
 .projects-image{
     width: 100%;
-    margin: 1rem 0;
+    vertical-align: middle;
     cursor: pointer;
+    margin: 1rem 0;
 }
 
 .projects-image-expanded
@@ -183,6 +183,7 @@ textarea{
     padding: 2rem 2rem;
     border-radius: .5rem;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background-color: #ffffff;
 }
 
 .services-section{

@@ -52,9 +52,9 @@
     <div class="featured-section">
         <h2><span>Featured Work</h2></span>
         <div class="featured-images">
-            <img class="featured-image" src="imgs/feature1.jpg" alt="">
-            <img class="featured-image" src="imgs/feature2.png" alt="">
-            <img class="featured-image" src="imgs/feature3.jpg" alt="">
+            <img class="featured-image" src="imgs/feature1.jpg" alt="featured project 1">
+            <img class="featured-image" src="imgs/feature2.jpg" alt="featured project 2">
+            <img class="featured-image" src="imgs/feature3.jpg" alt="featured project 3">
         </div>
         <button type="button" class="button-style-4"
         onclick="window.location.href='projects.php'">See More</button>

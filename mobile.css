@@ -10,6 +10,16 @@
     .projects-image{
         margin: .5rem 0;
     }
+
+    .projects{
+        padding: 3rem 0;
+    }
+    
+    .projects-column{
+        flex: 100%;
+        width: 100%;
+        margin: 0 1rem;
+    }
     
     .contact-section{
         align-items: center;

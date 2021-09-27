@@ -33,6 +33,6 @@
     <br>
     <p>Looks like you stumbled to the wrong place!</p>
     <br>
-    <p><a href="index.php" class="not-found-link">Click Here</a> to return to the homepage</p>
+    <p><a href="https://cmayinteriors.com/" class="not-found-link">Click Here</a> to return to the homepage</p>
 </body>
 </html>

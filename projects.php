@@ -13,44 +13,26 @@
     <div id="overlay"></div>
     <div class="projects">
         <div class="projects-column">
-            <img class="projects-image" src="imgs/websitepics/Bathroom-1.png" alt="project highlight">
-            <img class="projects-image" src="imgs/websitepics/Bathroom-2.png" alt="project highlight">
-            <img class="projects-image" src="imgs/websitepics/Bathroom-3.png" alt="project highlight">
-            <img class="projects-image" src="imgs/websitepics/Bathroom-4.png" alt="project highlight">
-            <img class="projects-image" src="imgs/websitepics/Bathroom-5.png" alt="project highlight">
+            <img class="projects-image" src="imgs/websitepics/Livingroom-3.jpg" alt="project highlight">
+            <img class="projects-image" src="imgs/websitepics/Hallway-1.jpg" alt="project highlight">
             <img class="projects-image" src="imgs/websitepics/Bedroom-1.jpg" alt="project highlight">
             <img class="projects-image" src="imgs/websitepics/Bedroom-2.jpg" alt="project highlight">
             <img class="projects-image" src="imgs/websitepics/Bedroom-4.jpg" alt="project highlight">
-            <img class="projects-image" src="imgs/websitepics/Bedroom-5.jpg" alt="project highlight"> 
-            <img class="projects-image" src="imgs/websitepics/Dining-Room-1.png" alt="project highlight">
-            <img class="projects-image" src="imgs/websitepics/Dining-Room-2.png" alt="project highlight">
+            <img class="projects-image" src="imgs/websitepics/Bedroom-5.jpg" alt="project highlight">
+            <!-- <img class="projects-image" src="imgs/websitepics/Office-2.jpg" alt="project highlight"> -->
+            <img class="projects-image" src="imgs/websitepics/Dining-Room-5.png" alt="project highlight">
+            <img class="projects-image" src="imgs/websitepics/Kitchen-1.jpg" alt="project highlight">
         </div>
         <div class="projects-column">
-            <img class="projects-image" src="imgs/websitepics/Dining-Room-4.jpg" alt="project highlight">
-            <img class="projects-image" src="imgs/websitepics/Dining-Room-5.png" alt="project highlight">
-            <img class="projects-image" src="imgs/websitepics/Dining-Room-7.jpg" alt="project highlight">
-            <img class="projects-image" src="imgs/websitepics/Kitchen-1.jpg" alt="project highlight">
-            <img class="projects-image" src="imgs/websitepics/Kitchen-2.png" alt="project highlight">
+            <img class="projects-image" src="imgs/websitepics/Livingroom-2.jpeg" alt="project highlight">
+            <img class="projects-image" src="imgs/websitepics/Kitchen-2.jpg" alt="project highlight">
+            <img class="projects-image" src="imgs/websitepics/Kitchen-4.jpg" alt="project highlight">
+            <img class="projects-image" src="imgs/websitepics/Misc-1.jpg" alt="project highlight">
             <img class="projects-image" src="imgs/websitepics/Kitchen-3.jpg" alt="project highlight">
-            <img class="projects-image" src="imgs/websitepics/Kitchen-4.png" alt="project highlight">
-            <img class="projects-image" src="imgs/websitepics/Kitchen-5.png" alt="project highlight">
-            <img class="projects-image" src="imgs/websitepics/Kitchen-6.png" alt="project highlight">
-            <img class="projects-image" src="imgs/websitepics/Livingroom-1.jpg" alt="project highlight">
-            <img class="projects-image" src="imgs/websitepics/Livingroom-3.jpg" alt="project highlight">
-        </div>
-        <div class="projects-column">         
+            <img class="projects-image" src="imgs/websitepics/Livingroom-1.jpg" alt="project highlight">        
             <img class="projects-image" src="imgs/websitepics/Livingroom-5.png" alt="project highlight">
-            <img class="projects-image" src="imgs/websitepics/Livingroom-6.png" alt="project highlight">
-            <img class="projects-image" src="imgs/websitepics/Livingroom-8.png" alt="project highlight">
-            <img class="projects-image" src="imgs/websitepics/Livingroom-9.png" alt="project highlight">
-            <img class="projects-image" src="imgs/websitepics/Livingroom-10.png" alt="project highlight">
             <img class="projects-image" src="imgs/websitepics/Livingroom-11.jpg" alt="project highlight">
-            <img class="projects-image" src="imgs/websitepics/Livingroom-12.jpg" alt="project highlight">
-            <img class="projects-image" src="imgs/websitepics/Livingroom-13.jpg" alt="project highlight">
-            <img class="projects-image" src="imgs/websitepics/Office-1.jpg" alt="project highlight">
-            <img class="projects-image" src="imgs/websitepics/Office-2.jpg" alt="project highlight">
-            <img class="projects-image" src="imgs/websitepics/Dining-Room-3.jpg" alt="project highlight">
-            <img class="projects-image" src="imgs/websitepics/Livingroom-2.jpg" alt="project highlight">
+            <img class="projects-image" src="imgs/websitepics/Dining-Room-7.jpg" alt="project highlight">
         </div>
     </div>
     <?php include 'footer.php'?>

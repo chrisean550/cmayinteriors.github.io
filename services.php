@@ -21,6 +21,7 @@
                 <li>Consultations</li>
                 <li>Space Planning</li>
                 <li>Paint & Color Selection</li>
+                <li>Kitchen & Bath Remodels</li>
                 <li>Custom Drapery & Upholstery</li>
                 <li>Accessory Selection & Placement</li>
                 <li>Furniture, Fabrics, & Fixture Selection</li>
